@@ -15,7 +15,7 @@ white = "\033[37;1m"
 
 os.system('toilet -f standard "DCScript" | lolcat')
 print("{}/////////////////////////////////////////////////////////////////".format(purple))
-print("{}/// {}.::Tool DCSript Untuk Membuat script Deface Simple & Keren::.{} ///".format(purple, white, purple))
+print("{}/// {}Tool DCSript Untuk Membuat script Deface Simple & Keren{} ///".format(purple, white, purple))
 print("{}/// {}Coded By : {}KOCH3NG_404                                   {} ///".format(purple, red, white, purple))
 print("{}/// {}Team : {}Dark Clown Security                               {} ///".format(purple, yellow, blue, purple))
 print("{}/// {}Website : {}Darkclownsecurity.com                          {} ///".format(purple, green, red, purple))
@@ -50,7 +50,7 @@ dcscript = """
 """
 try:
     title = str(input("{}Tulis Judul Halaman (ex: Hacked by K0CH3NG_404) => {}".format(red, green)))
-    icon = str(input("{}Masukan Link Gambar Ikon (ex : https://i.ibb.co/Fm5TNnv/D-C-S.jpg) => {}".format(red, green)))
+    icon = str(input("{}Masukan Link Gambar Ikon (ex:https://i.ibb.co/Fm5TNnv/D-C-S.jpg) => {}".format(red, green)))
     desk = str(input("{}Tulis Deskripsi (ex : Dark Clown Security) => {}".format(red, green)))
     bg = str(input("{}Warna Background (ex : black) => {}".format(red, green)))
     nick = str(input("{}Masukan Nick Defacer => {}".format(red, green)))
