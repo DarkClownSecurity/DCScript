@@ -15,7 +15,7 @@ white = "\033[37;1m"
 
 os.system('toilet -f standard "DCScript" | lolcat')
 print("{}/////////////////////////////////////////////////////////////////".format(purple))
-print("{}/// {}.::Tool DCSript Untuk Membuat script Deface Simple & Keren::.{} ///".format(purple, white, purple))
+print("{}/// {}Tool DCSript Untuk Membuat script Deface Simple & Keren {} ///".format(purple, white, purple))
 print("{}/// {}Coded By : {}KOCH3NG_404                                   {} ///".format(purple, red, white, purple))
 print("{}/// {}Team : {}Dark Clown Security                               {} ///".format(purple, yellow, blue, purple))
 print("{}/// {}Website : {}Darkclownsecurity.com                          {} ///".format(purple, green, red, purple))
