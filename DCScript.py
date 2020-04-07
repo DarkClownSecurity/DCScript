@@ -49,16 +49,16 @@ dcscript = """
 </html>
 """
 try:
-    title = str(input("{}Tulis Judul Halaman (ex: Hacked by K0CH3NG_404) => {}".format(red, green)))
-    icon = str(input("{}Masukan Link Gambar Ikon (ex : https://i.ibb.co/Fm5TNnv/D-C-S.jpg) => {}".format(red, green)))
-    desk = str(input("{}Tulis Deskripsi (ex : Dark Clown Security) => {}".format(red, green)))
-    bg = str(input("{}Warna Background (ex : black) => {}".format(red, green)))
-    nick = str(input("{}Masukan Nick Defacer => {}".format(red, green)))
-    img = str(input("{}Masukan Link Gambar (jpg/png/gif)=> {}".format(red, green)))
-    pesan = str(input("{}Tulis Pesan Galau :v (<br> untuk enter) => {}".format(red, green)))
-    mp3 = str(input("{}Masukan Link Lagu Mp3 => {}".format(red, green)))
-    friend = str(input("{}Tulis Nick Friend => {}".format(red, green)))
-    output = str(input("{}Nama Script Deface (ex : meong.html) => {}".format(red, green)))
+    title = str(input("{}</>Tulis Judul Halaman (ex: Hacked by K0CH3NG_404) => {}".format(red, green)))
+    icon = str(input("{}</>Masukan Link Gambar Ikon (ex : https://i.ibb.co/Fm5TNnv/D-C-S.jpg) => {}".format(red, green)))
+    desk = str(input("{}</>Tulis Deskripsi (ex : Dark Clown Security) => {}".format(red, green)))
+    bg = str(input("{}</>Warna Background (ex : black) => {}".format(red, green)))
+    nick = str(input("{}</>Masukan Nick Defacer => {}".format(red, green)))
+    img = str(input("{}</>Masukan Link Gambar (jpg/png/gif)=> {}".format(red, green)))
+    pesan = str(input("{}</>Tulis Pesan Galau :v (<br> untuk enter) => {}".format(red, green)))
+    mp3 = str(input("{}</>Masukan Link Lagu Mp3 => {}".format(red, green)))
+    friend = str(input("{}</>Tulis Nick Friend => {}".format(red, green)))
+    output = str(input("{}</>Nama Script Deface (ex : meong.html) => {}".format(red, green)))
 except (KeyboardInterrupt, KeyError, IOError):
     print("[!] Error Program Exited..")
     import time
